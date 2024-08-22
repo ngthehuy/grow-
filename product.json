@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "name": "Rau chân vịt 500g",
+        "price":12,
+        "image":"assets/img/img-tong-hop/img-rau/rau-chan-vit.jpg"    
+    },
+    {
+        "id":2,
+        "name": "Cải Ngồng 500g",
+        "price":19,
+        "image":"assets/img/img-tong-hop/img-rau/cai-ngong.jpg"   
+    },
+    {
+        "id":3,
+        "name": "Cải ngọt 500g",
+        "price":15,
+        "image":"assets/img/img-tong-hop/img-rau/cai-ngot.jpg"     
+    },
+    {
+        "id":4,
+        "name": "Bắp Mỹ 2 trái",
+        "price":19,
+        "image":"assets/img/img-tong-hop/img-cu-qua/bap-my.jpg"  
+    },
+    {
+        "id":5,
+        "name": "Nấm Hương 100g",
+        "price":22,
+        "image":"assets/img/img-tong-hop/img-nam/huong.jpg"     
+    }
+]

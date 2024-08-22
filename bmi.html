@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.pro.6.0.0.css" />
+    <link href="assets/css/owl.carousel.css" rel="stylesheet" />
+    <link href="assets/css/owl.theme.default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/css.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+    <title>Grow++ | BMI</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="assets/img/background&logo/logo-removebg-preview.png" alt=""></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Trang chủ</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="introduce.html">Sản phẩm</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle active"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                  Dịch vụ
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="calories-tool.html"
+                      >Tính chỉ số CALORIES TOOL</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="bmi.html">Tính BMI</a></li>
+                 
+                  <li>
+                    <a class="dropdown-item" href="bai-tap.html"
+                      >Bài tập hiệu quả tại nhà</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="cook.html"
+                      >Công thức nấu ăn</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="test-health.html"
+                      >Bài TEST sức khoẻ</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Liên hệ</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-user nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                <i class="fa-regular fa-circle-user"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="login.html"><i class="fa-solid fa-right-to-bracket text-danger"></i>Đăng nhập/ Đăng ký</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-sharp fa-regular fa-circle-info text-primary"></i>Quản lý tài khoản</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-regular fa-cart-shopping text-primary"></i>Quản lý đơn hàng</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-sharp fa-solid fa-coins text-warning"></i>Quản lý hoa hồng</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-handshake-simple text-primary"></i>Kiếm tiền cùng BEE</a></li>
+
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-shopping nav-link" href="contact.html"><i class="fa-regular fa-bag-shopping"></i></a>
+                <span class="count-shopping">0</span>
+              </li>
+            </ul>
+            
+          </div>
+          
+        </div>
+      </nav>
+    </header>
+    <section class="banner-bmi container">
+      <img src="assets/img/fitness/Chi-so-BMI-tieu-chuan-1.jpg" alt="">
+    </section>
+    <section class="bmi-container container">
+      <h1 class="title">Đo chỉ số cân nặng - chiều cao (BMI) Online</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class=" radios">
+            <h3>Giới tính của bạn</h3>
+            <div class="row radios-item">
+              <div class="col-6 male-wrap">
+                <i class="fa-regular fa-mars-stroke text-primary"></i>
+                <div class="male">
+                  <input
+                    class="check-male"
+                    type="radio"
+                    name="gender"
+                    value="male"
+                  />
+                  <span>Nam</span>
+          </div>
+         
+              </div>
+            
+            <div class="col-6 female-wrap text-danger">
+              <i class="fa-regular fa-venus"></i>
+              <div class="female">
+                <input
+                  class="check-female"
+                  type="radio"
+                  name="gender"
+                  value="female"
+                />
+                <span>Nữ</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-4">
+          <div class="input-bmi" >
+          <h3>Chiều cao của bạn</h3>
+          <input class="input-height" type="text " maxlength="3" />
+          <span>Cm</span>
+          </div>
+          
+        </div>
+        <div class="col-md-4">
+        <div class="input-bmi">
+          <h3>Cân nặng của bạn</h3>
+          <input class="input-weight" type="text" maxlength="3" />
+          <span>Kg</span>
+        </div>
+          
+        </div>
+      </div>
+      <div class="container-btn">
+         <button class="btn-checked btn btn-success">Kiểm Tra</button>
+        <button class="btn btn-secondary btn-reset">Đặt lại</button>
+      </div>
+       
+      <div class="show-result">
+        <div class="row">
+          <div class="col-lg-3 number-bmi">
+            <p>Kết quả BMI của bạn:</p>
+            <span id="number-bmi-result">0</span>
+          </div>
+          <div class="col-lg-9 review-bmi">
+            <p>Nhận xét BMI của bạn:</p>
+            <span id="review-bmi-result">Hãy nhập thông tin phía trên để tính BMI</span>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="bmi-review-project container owl-carousel owl-theme">
+      <!-- <div class="item">
+        <div class="card" style="width: 18rem">
+          <img src="" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div> -->
+    </section>
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 map">
+            <h3>Công ty Grow++ Việt Nam</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3011.1121878253257!2d106.70946009786604!3d10.956628943763949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1701262665285!5m2!1svi!2s" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col-lg-4 contact-footer">
+            <h3>Liên hệ</h3>
+            <ul>
+            <li><p class="btn"><i class="fa-solid fa-phone"></i>0328826350</p></li>
+            <li><p class="btn"><i class="fa-brands fa-facebook"></i>Grow++VN</p></li>
+            <li><p class="btn"><i class="fa-sharp fa-solid fa-bag-shopping"></i>G++_Health</p></li>
+            <li><p class="btn"><i class="fa-brands fa-instagram"></i>G++Healthy.vn</p></li>
+            <li><p class="btn"><i class="fa-solid fa-envelope"></i>G++VN@gmail.vn</p></li>
+            <li><p style="padding-left: 14px;"><i class="fa-sharp fa-solid fa-location-dot"></i>Số 333 Thuận Giao 16, Phường Thuận Giao, Thành phố Thuận An, Tỉnh Bình Dương.</p></li>
+          </ul>
+          </div>
+          <div class="col-lg-4 policy">
+            <h3>Chính sách</h3>
+            <ul>
+              <li ><p class="btn"><i class="fa-solid fa-caret-right"></i>Chính sách bảo mật thông tin</p></li>
+              <li><p class="btn"><i class="fa-solid fa-caret-right"></i>Chính sách đổi trả sản phẩm</p></li>
+              <li><p class="btn"><i class="fa-solid fa-caret-right"></i>Chính sách Thanh toán</p></li>
+              <li><p class="btn"><i class="fa-solid fa-caret-right"></i>Chính sách giao - nhận - trả hàng</p></li>
+            </ul>
+          </div>
+        </div>
+        <div class="copy-right">
+          <h3>BETU-D21C01A-GS25.All rights reserved</h3>
+        </div>
+      </div>
+    </section>
+    <section class="scroll">
+      <button id="scrollToTopBtn"><i class="fa-solid fa-chevron-up"></i></button>
+  </section>
+    <section class="script">
+      <script src="assets/js/jquery-3.7.1.min.js"></script>
+      <script src="assets/js/bootstrap.bundle.js"></script>
+      <script src="assets/js/owl.carousel.js"></script>
+      <script src="assets/js/script.js"></script>
+    </section>
+  </body>
+</html>
